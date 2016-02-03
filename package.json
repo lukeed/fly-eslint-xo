@@ -4,10 +4,6 @@
   "description": "Use XO's shareable config for fly-eslint",
   "license": "MIT",
   "repository": "https://github.com/lukeed/fly-eslint-xo",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
   "keywords":[
     "fly",
     "fly-plugin",
