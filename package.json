@@ -28,11 +28,15 @@
     "url": "https://lukeed.com"
   },
   "dependencies": {
+    "babel-eslint": "^4.1.6",
+    "eslint-config-xo": "^0.9.0",
+    "eslint-plugin-babel": "^3.0.0"
   },
   "devDependencies": {
-    "eslint": "^1.10.0",
-    "tap-spec": "^4.1.1",
-    "tape": "^4.2.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=1.9.0",
+    "fly-eslint": ">=1.0.0"
   },
   "engines": {
     "iojs": ">= 1.0.0",
