@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Use XO's shareable config for fly-eslint",
   "license": "MIT",
+  "main": "index.js",
   "repository": "https://github.com/lukeed/fly-eslint-xo",
   "keywords": [
     "fly",
