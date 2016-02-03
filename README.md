@@ -4,7 +4,7 @@
   </a>
 </div>
 
-> Use [XO][xo]'s shareable config for [fly-eslint][fly-eslint]
+> Use [XO](https://github.com/sindresorhus/xo)'s shareable config for [fly-eslint][fly-eslint]
 
 [![][fly-badge]][fly]
 [![npm package][npm-ver-link]][releases]
@@ -38,7 +38,7 @@ For ES2015 (or "ES6") linting:
 }
 ```
 
-Check out [XO's Documentation]([xo]#usage) for information on usage and configuration.
+Check out [XO's Documentation](https://github.com/sindresorhus/eslint-config-xo#usage) for information on usage and configuration.
 
 ## Usage
 
@@ -55,7 +55,6 @@ export function* linter () {
 [MIT][mit] © [Luke Edwards][author] et [al][contributors]
 
 
-[xo]:           https://github.com/sindresorhus/xo
 [fly-eslint]:   https://github.com/bucaran/fly-eslint
 [mit]:          http://opensource.org/licenses/MIT
 [author]:       https://lukeed.com
