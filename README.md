@@ -4,7 +4,7 @@
   </a>
 </div>
 
-> [Xo](https://github.com/lukeed/fly-eslint-xo) plugin for _[Fly][fly]_.
+> Use [XO][xo]'s shareable config for [fly-eslint][fly-eslint]
 
 [![][fly-badge]][fly]
 [![npm package][npm-ver-link]][releases]
@@ -14,7 +14,7 @@
 
 ## Install
 
-This package depends on [fly-eslint](https://github.com/bucaran/fly-eslint). It must be installed before (or with) `fly-eslint-xo`.
+This package depends on [fly-eslint][fly-eslint]. It must be installed before (or with) `fly-eslint-xo`.
 
 ```a
 npm install -D fly-eslint fly-eslint-xo
@@ -38,7 +38,7 @@ For ES2015 (or "ES6") linting:
 }
 ```
 
-Check out [XO's Documentation](https://github.com/sindresorhus/eslint-config-xo#usage) for information on usage and configuration.
+Check out [XO's Documentation]([xo]#usage) for information on usage and configuration.
 
 ## Usage
 
@@ -55,6 +55,8 @@ export function* linter () {
 [MIT][mit] © [Luke Edwards][author] et [al][contributors]
 
 
+[xo]:           https://github.com/sindresorhus/xo
+[fly-eslint]:   https://github.com/bucaran/fly-eslint
 [mit]:          http://opensource.org/licenses/MIT
 [author]:       https://lukeed.com
 [contributors]: https://github.com/lukeed/fly-eslint-xo/graphs/contributors
