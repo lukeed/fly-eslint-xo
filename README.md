@@ -12,26 +12,47 @@
 [![][travis-badge]][travis-link]
 [![][mit-badge]][mit]
 
-## Usage
-> Check out the [documentation](PLUGIN_DOCUMENTATION) to see the available options.
+## Install
 
-### Install
+This package depends on [fly-eslint](https://github.com/bucaran/fly-eslint). It must be installed before (or with) `fly-eslint-xo`.
 
 ```a
-npm install -D fly-eslint-xo
+npm install -D fly-eslint fly-eslint-xo
 ```
 
-### Example
+Then create a `.eslintrc` file in your project root.
+
+For ES5 linting:
+
+```json
+{
+  "extends": "xo"
+}
+```
+
+For ES2015 (or "ES6") linting: 
+
+```json
+{
+  "extends": "xo/esnext"
+}
+```
+
+Check out [XO's Documentation](https://github.com/sindresorhus/eslint-config-xo#usage) for information on usage and configuration.
+
+## Usage
+
+Follow the normal `fly-eslint` usage:
 
 ```js
-export default function* () {
-  yield ...
+export function* linter () {
+  yield this.source("src/**/*.js").eslint()
 }
 ```
 
 ## License
 
-[MIT][mit] © [luke][author] et [al][contributors]
+[MIT][mit] © [Luke Edwards][author] et [al][contributors]
 
 
 [mit]:          http://opensource.org/licenses/MIT
