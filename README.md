@@ -9,7 +9,6 @@
 [![][fly-badge]][fly]
 [![npm package][npm-ver-link]][releases]
 [![][dl-badge]][npm-pkg-link]
-[![][travis-badge]][travis-link]
 [![][mit-badge]][mit]
 
 ## Install
@@ -66,5 +65,3 @@ export function* linter () {
 [npm-pkg-link]: https://www.npmjs.org/package/fly-eslint-xo
 [npm-ver-link]: https://img.shields.io/npm/v/fly-eslint-xo.svg?style=flat-square
 [dl-badge]:     http://img.shields.io/npm/dm/fly-eslint-xo.svg?style=flat-square
-[travis-link]:  https://travis-ci.org/lukeed/fly-eslint-xo
-[travis-badge]: http://img.shields.io/travis/lukeed/fly-eslint-xo.svg?style=flat-square
