@@ -1,6 +1,6 @@
 {
   "name": "fly-eslint-xo",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Use XO's shareable config for fly-eslint",
   "license": "MIT",
   "main": "index.js",
